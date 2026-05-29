@@ -326,7 +326,7 @@ function Onboarding(props){
 }
 
 // ── Main App ─────────────────────────────────────────────────────────────────
-export default function DebtTracker(){
+export default function App(){
   var [dark,setDark]=useState(false);
   var t=dark?T.dark:T.light;
   var [accounts,setAccounts]=useState(ACCOUNTS);
